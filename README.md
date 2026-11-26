@@ -1,6 +1,8 @@
 # HearthLedger — The Marlowe Household Budget
 
-[![make.fun](https://img.shields.io/badge/make.fun-bounty-1e4d3b)](https://make.fun/c/best-household-budget-site-20261126-1457)
+[![make.fun · best-household-budget-site-20261126-1457](https://make.fun/badge/best-household-budget-site-20261126-1457.svg)](https://make.fun/bounty/best-household-budget-site-20261126-1457?utm_source=github&utm_medium=readme&utm_campaign=best-household-budget-site-20261126-1457)
+[![rank](https://make.fun/badge/best-household-budget-site-20261126-1457/sagaevil530/best-household-budget-site-20261126-1457-entry/rank.svg)](https://make.fun/bounty/best-household-budget-site-20261126-1457/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=best-household-budget-site-20261126-1457)
+[![reward](https://make.fun/badge/best-household-budget-site-20261126-1457/sagaevil530/best-household-budget-site-20261126-1457-entry/reward.svg)](https://make.fun/bounty/best-household-budget-site-20261126-1457?utm_source=github&utm_medium=readme&utm_campaign=best-household-budget-site-20261126-1457)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![No build step](https://img.shields.io/badge/static-no%20build%20step-brightgreen)](app/index.html)
 
