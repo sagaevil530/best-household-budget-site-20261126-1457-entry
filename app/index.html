@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HearthLedger — The Marlowe Household Budget</title>
+<meta name="description" content="HearthLedger keeps one household's money in order: income, spending, budgets, bills and savings goals, all in one place.">
+<link rel="stylesheet" href="style.css">
+<script type="module" src="main.js"></script>
+</head>
+<body>
+<div class="shell">
+  <aside class="side">
+    <a class="brand" href="#/">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 32 32" width="30" height="30"><path d="M16 3 3 14h4v13h8v-8h2v8h8V14h4L16 3z" fill="#f4ead8"/><path d="M16 7.5 8 14.5h3V24h3v-7h4v7h3V14.5h3L16 7.5z" fill="#1e4d3b"/></svg>
+      </span>
+      <span class="brand-name">HearthLedger</span>
+      <span class="brand-sub">The Marlowe household</span>
+    </a>
+    <nav class="nav" aria-label="Sections">
+      <a href="#/" data-route="">Dashboard</a>
+      <a href="#/transactions" data-route="transactions">Transactions</a>
+      <a href="#/budgets" data-route="budgets">Budgets</a>
+      <a href="#/bills" data-route="bills">Bills &amp; recurring</a>
+      <a href="#/goals" data-route="goals">Savings goals</a>
+      <a href="#/reports" data-route="reports">Reports</a>
+      <a href="#/settings" data-route="settings">Settings</a>
+    </nav>
+    <div class="side-card">
+      <p class="side-card-title">November at a glance</p>
+      <p class="side-card-line"><span>Money in</span><strong id="side-income">—</strong></p>
+      <p class="side-card-line"><span>Money out</span><strong id="side-spent">—</strong></p>
+      <p class="side-card-line"><span>Left to spend</span><strong id="side-left">—</strong></p>
+      <a class="side-card-link" href="#/transactions">Add a transaction →</a>
+    </div>
+    <p class="side-note">Your data stays in this browser. Nothing leaves the household.</p>
+  </aside>
+  <div class="main-wrap">
+    <header class="topbar">
+      <button class="menu-btn" id="menu-btn" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <p class="topbar-title" id="topbar-title">Dashboard</p>
+      <p class="topbar-date" id="topbar-date"></p>
+    </header>
+    <main id="app" class="app"></main>
+    <footer class="foot">
+      <p>HearthLedger — a household budget book for the Marlowe family. Figures are the household's own records; edit any of them on the Transactions page.</p>
+      <p><a href="#/settings">Settings</a> · <a href="#/reports">Reports</a> · <a href="#/goals">Savings goals</a></p>
+    </footer>
+  </div>
+</div>
+<div class="modal-backdrop" id="modal-backdrop" hidden>
+  <div class="modal" role="dialog" aria-modal="true" id="modal-box"></div>
+</div>
+<div class="toast" id="toast" role="status" hidden></div>
+</body>
+</html>
